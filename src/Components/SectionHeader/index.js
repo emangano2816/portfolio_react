@@ -1,9 +1,9 @@
 import React from "react";
 
-function SecctionHeader() {
+function SecctionHeader({ header }) {
     return (
         <h2>
-            About Me
+            {header}
         </h2>
     )
 }

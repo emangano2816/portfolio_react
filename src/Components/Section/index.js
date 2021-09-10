@@ -6,8 +6,8 @@ import AboutMe from "../AboutMe/index.js";
 function Section(props) {
     return(
         <section id={props.id} className={props.style}>
-            <SectionHeader />
-            <AboutMe />
+            <SectionHeader header={props.header} />
+            {props.component}
 
         </section>
     )
