@@ -1,7 +1,7 @@
 import React from 'react';
-import '../List/style.css';
+import './style.css';
 
-function List() {
+function NavList() {
     return (
         <ul>
             <li>
@@ -20,4 +20,4 @@ function List() {
     )
 }
 
-export default List;
+export default NavList;

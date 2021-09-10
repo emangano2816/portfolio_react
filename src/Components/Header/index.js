@@ -1,6 +1,6 @@
 import React from 'react';
 import '../Header/style.css';
-import List from '../List';
+import List from '../NavList';
 
 function Header(){
     return (
