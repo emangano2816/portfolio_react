@@ -8,10 +8,10 @@ import '../Main/style.css'
 function Main() {
 
     return(
-        <main class="main-container">
-            <Section id="aboutme" style="aboutme-container aboutme-item" header='About Me' component={<AboutMe/>} />
-            <Section id="work" style="work-container work-item" header='Work' component={<Projects/>} />
-            <Section id="contact-me" style="contactme-container contactme-item" header='Contact Me' component={<ContactMe/>} />
+        <main className="main-container">
+            <Section id="aboutme" styles="aboutme-container aboutme-item" header='About Me' component={<AboutMe/>} />
+            <Section id="work" styles="work-container work-item" header='Work' component={<Projects/>} />
+            <Section id="contact-me" styles="contactme-container contactme-item" header='Contact Me' component={<ContactMe/>} />
         </main>
     )
 }

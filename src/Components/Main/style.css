@@ -17,7 +17,8 @@
 
 .main-container .aboutme-info-container,
 .main-container .projects,
-.main-container address {
+.main-container .address,
+.main-container .project-details {
     width:75%;
     height:auto;
     padding-top: 1%;
@@ -244,6 +245,30 @@
 
 .custom-modal a:hover {
     color: var(--pop);
+}
+
+/*Project details styles*/
+.project-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-details .project-image {
+    border-radius: 25px;
+    width: 800px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.project-details h3 {
+    color: var(--pop);
+    font-size: xx-large;
+}
+.project-details h4 {
+    color: var(--pop);
+    padding-top: 2%;
+    font-size: x-large;
 }
 
 /*Changes to layout when screen size is between 576px and 992px*/
