@@ -1,5 +1,7 @@
 import React from "react";
 import SectionHeader from "../SectionHeader";
+import Section from "../Section";
+import ContactMe from "../ContactMe";
 import images from '../../assets/sharespace_resize.png'
 
 function ProjectDetails() {
@@ -20,6 +22,7 @@ function ProjectDetails() {
                     <a href="https://github.com/Errollinsjr/ShareSpaceProjectTwo" target="_blank" rel="noreferrer noopener">GitHub Repository</a>
                 </div>
             </div>
+            <Section id="contact-me" styles="contactme-container contactme-item" header='Contact Me' component={<ContactMe/>} />
         </div>
     )
 }

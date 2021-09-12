@@ -17,7 +17,7 @@
 
 .main-container .aboutme-info-container,
 .main-container .projects,
-.main-container .address,
+.main-container address,
 .main-container .project-details {
     width:75%;
     height:auto;
@@ -100,13 +100,9 @@
      transition: all, 3s, ease-in;
      background-color:var(--secondary);
  }
-    /*setting size of first project image to be the largest*/
- .projects button:first-child {
-    flex: 0 0 96%;
-    height: 300px;  
- }
-    /*setting size of project images 2-5*/
- .projects button:nth-child(n+2) {
+
+    /*setting size of project images*/
+ .projects button {
     flex: 0 0 46%;
     height: 150px;
  }
@@ -152,17 +148,8 @@
     font-size:1em;
 }
 
-    /*setting h2 displayed on first application*/
-.projects button:first-child h2 {
-    border-top-right-radius:10px;
-    border-bottom-right-radius:10px;
-    position: absolute;
-    top:175px;
-    left: 0px;
-    width:150px;
-}
     /*setting h2 displayed on applications 2-5*/
-.projects button:nth-child(n+2) h2 {
+.projects button h2 {
     border-top-right-radius:10px;
     border-bottom-right-radius:10px;
     position: absolute;
