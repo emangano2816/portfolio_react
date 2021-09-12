@@ -1,5 +1,5 @@
 import Header from '../Header/index.js'
-import ProjectDetails from '../ProjectDetails/ProjectDetails.js';
+import ProjectDetails from '../ProjectDetails/ProjectDetail.js';
 
 function Home() {
   return (

@@ -112,24 +112,29 @@
     background-size: cover;
 }
 
-.projects #work2 {
+.project #work2 {
+    background-image: url();
+    background-size: cover;
+}
+
+.projects #work3 {
     background-image: url("../../assets/project1_moviedrink_matchmaker_resized.png");  
     background-size: cover;
 }
 
 
-.projects #work3 {
+.projects #work4 {
     background-image: url("../../assets/Code_Quiz_resized.png");
     background-size: cover;
 }
 
-.projects #work4 {
+.projects #work5 {
     background-image: url("../../assets/Weather_Dashboard_resized.png");
     background-size: cover;
 
 }
 
-.projects #work5 {
+.projects #work6 {
     background-image: url("../../assets/workday_scheduler_resized.png");
     background-size: cover;
 }
@@ -243,7 +248,7 @@
 
 .project-details .project-image {
     border-radius: 25px;
-    width: 800px;
+    width: 96%;
     padding-top: 2%;
     padding-bottom: 2%;
 }
@@ -383,7 +388,8 @@
         width:100%;
     }
     /*Changing Work Images (2-5) to display 100% of width*/
-    .projects button:nth-child(n+2) {
+    .projects button {
         flex:0 0 96%;
     }
+
 }
