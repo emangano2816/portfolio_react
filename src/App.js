@@ -9,7 +9,7 @@ import WorkdayScheduler from "./Components/pages/WorkdayScheduler";
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
         <Switch>
             <Route exact path='/' component={Home} />
             <Route exact path='/sharespace' component={ShareSpace} />
