@@ -17,7 +17,7 @@ function MovieDrinkMatch() {
                     <p>Worked collaboratively with 4 peers to develop a responsive, mobile-first Movie-Drink Matchmaker application.  The user selects a movie genre and drink type and the application returns movies and drinks meeting the criteria.  The user is able to scroll through suggested movies and drinks until finding a favorite combination.  The favorite combination is saved to local storage and persists on the favorites page of the application.</p>
                     <h4>Technologies Used</h4>
                     <p>HTML, CSS, Bulma CSS, JavaScript, Third-party APIs</p>
-                    <h4>Which would you like to view?</h4>
+                    <h4>View:</h4>
                     <a href="https://evperkinsjr.github.io/movie-drink-matchmaker/" target="_blank" rel="noreferrer noopener">Application</a> 
                     <a href="https://github.com/evperkinsjr/movie-drink-matchmaker" target="_blank" rel="noreferrer noopener">GitHub Repository</a>
                 </div>

@@ -9,7 +9,7 @@ function Projects() {
             <ProjectButton id='work3' name='Movie-Drink Matchmaker' page= 'moviedrinkmatch'/>
             <ProjectButton id='work4' name='Code Quiz' page='codequiz'/>
             <ProjectButton id='work5' name='Weather Dashboard' page='weatherdashboard' />
-            <ProjectButton id='work6' name='Workday Scheduler' />
+            <ProjectButton id='work6' name='Workday Scheduler' page='workdayscheduler' />
         </div>
     )
 }
