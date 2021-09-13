@@ -15,7 +15,8 @@
 6. The application is responsive.
 
 ### Portfolio Functionality
-![portfolio_demo.](./assets/images/portfolio_demo.gif)
+
+https://user-images.githubusercontent.com/79860046/133171411-f6ba6a09-48a8-4117-9dd3-81896a22d1fc.mp4
 
 ## Updates to GitHub
 Pinned a 6th project - Employee Directory.
