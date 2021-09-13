@@ -11,13 +11,13 @@ function App() {
   return (
     <Router>
       <div>
-        <Route exact path='/' component={Home} />
-        <Route exact path='/sharespace' component={ShareSpace} />
-        <Route exact path='/empdirreact' component={EmpDirReact} />
-        <Route exact path='/moviedrinkmatch' component={MovieDrinkMatch} />
-        <Route exact path='/codequiz' component={CodeQuiz} />
-        <Route exact path='/weatherdashboard' component={WeatherDashboard} />
-        <Route exact path='/workdayscheduler' component={WorkdayScheduler} />
+          <Route exact path='/' component={Home} />
+          <Route exact path='/sharespace' component={ShareSpace} />
+          <Route exact path='/empdirreact' component={EmpDirReact} />
+          <Route exact path='/moviedrinkmatch' component={MovieDrinkMatch} />
+          <Route exact path='/codequiz' component={CodeQuiz} />
+          <Route exact path='/weatherdashboard' component={WeatherDashboard} />
+          <Route exact path='/workdayscheduler' component={WorkdayScheduler} />
       </div>
     </Router>
       
