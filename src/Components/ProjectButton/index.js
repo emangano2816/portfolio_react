@@ -4,9 +4,8 @@ import { useHistory } from 'react-router-dom';
 function ProjectButton(props) {
     const history = useHistory();
 
-    const handleRoute =  () => {
-        console.log('test');
-        history.push('/projectdetails');
+    const handleRoute = () => {
+        history.push(`/${props.page}`);
     }
 
     return (

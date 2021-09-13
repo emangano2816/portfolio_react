@@ -1,11 +1,11 @@
 import Header from '../Header/index.js'
-import ProjectDetails from '../ProjectDetails/ProjectDetail.js';
+import CodeQuiz from '../CodeQuiz/index.js';
 
 function Home() {
   return (
     <div>
       <Header />
-      <ProjectDetails />
+      <CodeQuiz />
     </div>
       
 

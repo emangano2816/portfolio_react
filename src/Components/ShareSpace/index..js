@@ -4,7 +4,7 @@ import Section from "../Section";
 import ContactMe from "../ContactMe";
 import images from '../../assets/sharespace_resize.png'
 
-function ProjectDetails() {
+function ShareSpace() {
 
     return(
         <div className='main-container'>
@@ -12,7 +12,7 @@ function ProjectDetails() {
                 <SectionHeader header='Project Details' />
                 <div className='project-details'>
                     <h3>ShareSp@ce</h3>
-                    <img src={images} className='project-image'/>
+                    <img src={images} className='project-image' alt='ShareSpace application'/>
                     <h4>Description</h4>
                     <p>An application for sharing your favorite pictures, videos, and GIFs about 10 of the most popular subjects on the web.  Users must create an account and log in, in order to post ideas.</p>
                     <h4>Technologies Used</h4>
@@ -27,4 +27,4 @@ function ProjectDetails() {
     )
 }
 
-export default ProjectDetails;
+export default ShareSpace;
