@@ -3,7 +3,7 @@
 ## Links
 1. Deployed application: https://emangano2816.github.io/portfolio_react/
 2. GitHub Repository: https://github.com/emangano2816
-3. [Resume](./assets/documents/Resume_Coding_20210812.pdf)
+3. [Resume](https://github.com/emangano2816/portfolio_react/blob/main/public/assets/Resume_Coding_20210913.pdf)
 4. LinkedIn Profile: https://www.linkedin.com/in/elizabeth-mangano/
 
 ## Updates to Portfolio
@@ -15,7 +15,8 @@
 6. The application is responsive.
 
 ### Portfolio Functionality
-![portfolio_demo.](./assets/images/portfolio_demo.gif)
+
+https://user-images.githubusercontent.com/79860046/133171411-f6ba6a09-48a8-4117-9dd3-81896a22d1fc.mp4
 
 ## Updates to GitHub
 Pinned a 6th project - Employee Directory.
