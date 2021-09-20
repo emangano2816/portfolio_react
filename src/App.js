@@ -5,19 +5,19 @@ import MovieDrinkMatch from "./Components/pages/MovieDrinkMatch";
 import EmpDirReact from "./Components/pages/EmpDirReact";
 import CodeQuiz from "./Components/pages/CodeQuiz";
 import WeatherDashboard from "./Components/pages/WeatherDashboard";
-import WorkdayScheduler from "./Components/pages/WorkdayScheduler";
+import GoogleBooksSearch from "./Components/GoogleBooksSearch";
 
 function App() {
   return (
     <Router basename={process.env.PUBLIC_URL}>
         <Switch>
             <Route exact path='/' component={Home} />
+            <Route exact path='/googlebookssearch' component={GoogleBooksSearch} />
             <Route exact path='/sharespace' component={ShareSpace} />
             <Route exact path='/empdirreact' component={EmpDirReact} />
             <Route exact path='/moviedrinkmatch' component={MovieDrinkMatch} />
             <Route exact path='/codequiz' component={CodeQuiz} />
             <Route exact path='/weatherdashboard' component={WeatherDashboard} />
-            <Route exact path='/workdayscheduler' component={WorkdayScheduler} />
         </Switch>
     </Router>
       
