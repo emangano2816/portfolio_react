@@ -2,7 +2,7 @@ import React from "react";
 import SectionHeader from "../SectionHeader";
 import Section from "../Section";
 import ContactMe from "../ContactMe";
-import images from '../../assets/google_books_search.png'
+import images from '../../assets/react_google_books_search.png'
 
 function GoogleBooksSearch() {
 
