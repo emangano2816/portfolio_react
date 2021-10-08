@@ -5,7 +5,7 @@ import MovieDrinkMatch from "./Components/pages/MovieDrinkMatch";
 import EmpDirReact from "./Components/pages/EmpDirReact";
 import CodeQuiz from "./Components/pages/CodeQuiz";
 import GoogleBooksSearch from "./Components/pages/GoogleBooksSearch";
-import OneStop from "./Components/OneStop";
+import OneStop from "./Components/pages/OneStop";
 
 function App() {
   return (

@@ -109,36 +109,37 @@
  }
 
  .projects #work1 {
+    background-image: url("../../assets/onestop.png");
+    background-size: cover;
+
+}
+ .projects #work2 {
     background-image: url("../../assets/react_google_books_search.png");
     background-size: cover;
 }
 
-.projects #work2 {
+.projects #work3 {
     background-image: url("../../assets/sharespace_resize.png");
     background-size: cover;
 }
 
-.projects #work3 {
+.projects #work4 {
     background-image: url("../../assets/emp_react_app.png");
     background-size: cover;
 }
 
-.projects #work4 {
+.projects #work5 {
     background-image: url("../../assets/project1_moviedrink_matchmaker_resized.png");  
     background-size: cover;
 }
 
 
-.projects #work5 {
+.projects #work6 {
     background-image: url("../../assets/Code_Quiz_resized.png");
     background-size: cover;
 }
 
-.projects #work6 {
-    background-image: url("../../assets/Weather_Dashboard_resized.png");
-    background-size: cover;
 
-}
 
 
 

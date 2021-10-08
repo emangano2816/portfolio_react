@@ -2,7 +2,7 @@ import React from "react";
 import SectionHeader from "../SectionHeader";
 import Section from "../Section";
 import ContactMe from "../ContactMe";
-import images from '../../assets/Weather_Dashboard_resized.png'
+import images from '../../assets/onestop.png'
 
 function OneStop() {
 
@@ -18,7 +18,7 @@ function OneStop() {
                     <h4>Technologies Used</h4>
                     <p>MySQL, Express, React, Node, Heroku</p>
                     <h4>View:</h4>
-                    <a href="https://dashboard.heroku.com/apps/onestop-us" target="_blank" rel="noreferrer noopener">Application</a> 
+                    <a href="https://onestop-us.herokuapp.com/" target="_blank" rel="noreferrer noopener">Application</a> 
                     <a href="https://github.com/Errollinsjr/OneStop" target="_blank" rel="noreferrer noopener">GitHub Repository</a>
                 </div>
             </div>
